@@ -25,8 +25,8 @@ public class ProductTestCase
 		Product product = new Product();
 		// only set cases will change for all TestCases classes 
 	
-		product.setProdname("WIFIMobile");
-		product.setProdDesc("This Mobile is WIFI Enabled. You can Enjoy Internet");
+		product.setProductname("WIFIMobile");
+		product.setProductDesc("This Mobile is WIFI Enabled. You can Enjoy Internet");
 		product.setPrice(1200);
 		product.setQuantity(2);
 		

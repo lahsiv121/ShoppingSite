@@ -12,7 +12,6 @@ import org.springframework.stereotype.Repository;
 import com.Eshop.EshopBackend.Model.*;
 
 @Repository
-
 public class ProductDAO 
 {
 
@@ -30,10 +29,10 @@ public class ProductDAO
 		session.saveOrUpdate(product);
 	}
 
-	public Product getProduct(int prodid)
+	public Product getProduct(String productid)
 	{
 		Session session =sessionFactory.openSession();
-		Product product = (Product)session.get(Product.class,prodid);
+		Product product = (Product)session.get(Product.class,productid);
 		session.close();
 		return product;
 	}

@@ -12,32 +12,28 @@ public class Category
 
 	@Id
 	@GeneratedValue
-	int catid;
+	private int categoryid;
+	private String categoryname;
+	private String categorydesc;
 	
-	String catname,catdesc;
-
-	public int getCatid() {
-		return catid;
+	public int getCategoryid() {
+		return categoryid;
 	}
-
-	public void setCatid(int catid) {
-		this.catid = catid;
+	public void setCategoryid(int categoryid) {
+		this.categoryid = categoryid;
 	}
-
-	public String getCatname() {
-		return catname;
+	public String getCategoryname() {
+		return categoryname;
 	}
-
-	public void setCatname(String catname) {
-		this.catname = catname;
+	public void setCategoryname(String categoryname) {
+		this.categoryname = categoryname;
 	}
-
-	public String getCatdesc() {
-		return catdesc;
+	public String getCategorydesc() {
+		return categorydesc;
 	}
-
-	public void setCatdesc(String catdesc) {
-		this.catdesc = catdesc;
+	public void setCategorydesc(String categorydesc) {
+		this.categorydesc = categorydesc;
 	}
-
+	
+	
 }

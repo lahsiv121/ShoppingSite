@@ -12,55 +12,55 @@ public class Product
 {
 	@Id
 	@GeneratedValue
-	int prodid;
-	String prodname;
-	int catid;
-	int suppid;
-	int Quantity;
-	int price;
-	String ProdDesc;
-	public int getProdid() {
-		return prodid;
+	private String productid;
+	private String productname;
+	private String categoryid;
+	private String supplierid;
+	private int quantity;
+	private double price;
+	private String productDesc;
+	
+	public String getProductid() {
+		return productid;
 	}
-	public void setProdid(int prodid) {
-		this.prodid = prodid;
+	public void setProductid(String productid) {
+		this.productid = productid;
 	}
-	public String getProdname() {
-		return prodname;
+	public String getProductname() {
+		return productname;
 	}
-	public void setProdname(String prodname) {
-		this.prodname = prodname;
+	public void setProductname(String productname) {
+		this.productname = productname;
 	}
-	public int getCatid() {
-		return catid;
+	public String getCategoryid() {
+		return categoryid;
 	}
-	public void setCatid(int catid) {
-		this.catid = catid;
+	public void setCategoryid(String categoryid) {
+		this.categoryid = categoryid;
 	}
-	public int getSuppid() {
-		return suppid;
+	public String getSupplierid() {
+		return supplierid;
 	}
-	public void setSuppid(int suppid) {
-		this.suppid = suppid;
+	public void setSupplierid(String supplierid) {
+		this.supplierid = supplierid;
 	}
-	public int getQuantity() {
-		return Quantity;
-	}
-	public void setQuantity(int quantity) {
-		Quantity = quantity;
-	}
-	public int getPrice() {
+	public double getPrice() {
 		return price;
 	}
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
-	public String getProdDesc() {
-		return ProdDesc;
+	public int getQuantity() {
+		return quantity;
 	}
-	public void setProdDesc(String prodDesc) {
-		ProdDesc = prodDesc;
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
-
-	
+	public String getProductDesc() {
+		return productDesc;
+	}
+	public void setProductDesc(String productDesc) {
+		this.productDesc = productDesc;
+	}
+			
 }

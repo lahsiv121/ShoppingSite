@@ -24,8 +24,8 @@ public class CategoryTestCase
 		
 		Category category=new Category();
 		// only set cases will change for all TestCases classes 
-		category.setCatname("WIFIMobile");
-		category.setCatdesc("This Mobile is WIFI Enabled. You can Enjoy Internet");
+		category.setCategoryname("WIFIMobile");
+		category.setCategorydesc("This Mobile is WIFI Enabled. You can Enjoy Internet");
 
 		categoryDAO.insertUpdateCategory(category);		
 		System.out.println("Category Inserted");

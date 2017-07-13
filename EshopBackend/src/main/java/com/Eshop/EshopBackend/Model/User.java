@@ -4,20 +4,22 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table
+import org.springframework.stereotype.Component;
+
+@Component    // To autowire the class
+@Entity       //to map the table into db with column name 
 public class User 
 {
 
 	@Id
-	String username;
-	String password;
-	String Custname;
-	String Role;
+	private String username;
+	private String password;
+	private String Custname;
+	private String Role;
 	boolean Enabled;
-	String Email;
-	String Address;
-	int mobile;
+	private String Email;
+	private String Address;
+	private int mobile_no;
 	public String getUsername() {
 		return username;
 	}
@@ -60,11 +62,12 @@ public class User
 	public void setAddress(String address) {
 		Address = address;
 	}
-	public int getMobile() {
-		return mobile;
+	public int getMobile_no() {
+		return mobile_no;
 	}
-	public void setMobile(int mobile) {
-		this.mobile = mobile;
+	public void setMobile_no(int mobile_no) {
+		this.mobile_no = mobile_no;
 	}
-
+	
+	
 }

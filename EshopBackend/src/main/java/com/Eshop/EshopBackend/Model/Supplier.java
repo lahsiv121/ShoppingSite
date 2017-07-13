@@ -12,27 +12,29 @@ public class Supplier
 {
 	@Id
 	@GeneratedValue
-	int Suppid;
-	String Suppname;
-	String Address;
-	public int getSuppid() {
-		return Suppid;
+	private String supplierid;
+	private String suppliername;
+	private String supplieraddress;
+	
+	public String getSupplierid() {
+		return supplierid;
 	}
-	public void setSuppid(int suppid) {
-		Suppid = suppid;
+	public void setSupplierid(String supplierid) {
+		this.supplierid = supplierid;
 	}
-	public String getSuppname() {
-		return Suppname;
+	public String getSupplieraddress() {
+		return supplieraddress;
 	}
-	public void setSuppname(String suppname) {
-		Suppname = suppname;
+	
+	public String getSuppliername() {
+		return suppliername;
 	}
-	public String getAddress() {
-		return Address;
+	public void setSuppliername(String suppliername) {
+		this.suppliername = suppliername;
 	}
-	public void setAddress(String address) {
-		Address = address;
+	public void setSupplieraddress(String supplieraddress) {
+		this.supplieraddress = supplieraddress;
 	}
-
+	
 	
 }

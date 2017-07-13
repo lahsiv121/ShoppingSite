@@ -1,6 +1,7 @@
 package com.Eshop.EshopBackend;
 import java.util.List;
 
+
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import com.Eshop.EshopBackend.DAO.*;
 import com.Eshop.EshopBackend.Model.*;
@@ -27,7 +28,7 @@ public class UserTestCase
 		user.setUsername("jhbjh");
 		user.setCustname("sonu");
 		user.setAddress("PRATAP VIHAR - 2 DELHI");
-
+		
 		userDAO.insertUpdateUser(user);		
 		System.out.println("User Inserted");
 		

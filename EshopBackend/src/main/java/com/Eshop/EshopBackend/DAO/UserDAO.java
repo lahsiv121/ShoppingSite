@@ -14,7 +14,6 @@ import org.springframework.stereotype.Repository;
 import com.Eshop.EshopBackend.Model.User;
 
 @Repository("userDAO")
-
 public class UserDAO 
 {
 	@Autowired
@@ -43,16 +42,31 @@ public class UserDAO
 	{
 		sessionFactory.getCurrentSession().delete(user);
 		
-	}
-/*	
-	public List<User> getUserDetails() 
+	}	
+//commented have to ask from mam... 	
+	public boolean getUserDetails(String username,String password) 
 	{
+		System.out.println("Inside getUserDetails"+username+""+password);
 		Session session = sessionFactory.getCurrentSession();
-		Query query= session.createQuery("from User");
-		List<User> list=query.list();
+		Query query= session.createQuery("from User where username=:username and password=:password");
+		query.setParameter("username", username);
+		query.setParameter("password", password);
+		List<User> userlist=query.list();
 		session.close();
-		return list;
-	}*/
+		 if(userlist.size()>0)
+		   {
+			   return true;
+		   }
+		   else
+		   {
+			   return false;
+		   }
+		   
+		   }
+		
+		//return list;
+	}
+
 
 	
-}
+

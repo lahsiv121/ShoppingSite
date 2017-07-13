@@ -25,8 +25,8 @@ public class SupplierTestCase
 		
 		Supplier supplier=new Supplier();
 		// only set cases will change for all TestCases classes 
-		supplier.setSuppname("WIFIMobile");
-		supplier.setAddress("This Mobile is WIFI Enabled. You can Enjoy Internet");
+		supplier.setSuppliername("vimal");
+		supplier.setSupplieraddress("This Mobile is WIFI Enabled. You can Enjoy Internet");
 		
 		supplierDAO.insertUpdateSupplier(supplier);		
 		System.out.println("Supplier Inserted");

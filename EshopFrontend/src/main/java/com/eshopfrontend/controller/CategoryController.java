@@ -19,27 +19,27 @@ public class CategoryController
 	@Autowired
 	CategoryDAO categoryDAO;
 	
-	@RequestMapping("/Category")
+	@RequestMapping("/category")
 	public String showCategoryPage()
 	{
 		System.out.println("---Category Page Displaying-----");
-		return "Category";
+		return "category"; // category jsp page name
 	}
 	
-	@RequestMapping(value="/AddCategory",method=RequestMethod.POST)
-	public String addCategory(@RequestParam("catname") String catname,@RequestParam("catdesc") String catdesc)
+	@RequestMapping(value="/addCategory",method=RequestMethod.POST)
+	public String addCategory(@RequestParam("categoryname") String categoryname,@RequestParam("categorydesc") String categorydesc)
 	{
 		System.out.println("---Add Category Starting-----");
 		
-		System.out.println(catname+":::"+catdesc);
+		System.out.println(categoryname+":::"+categorydesc);
 		
 		Category category=new Category();
-		category.setCatname(catname);
-		category.setCatdesc(catdesc);
+		category.setCategoryname(categoryname);
+		category.setCategorydesc(categorydesc);
 		
 		categoryDAO.insertUpdateCategory(category);
 		System.out.println("---Category Added----");
-		return "Category";
+		return "category"; //jsp page name of category
 	}
 
 	
