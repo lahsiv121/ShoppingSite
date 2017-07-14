@@ -11,11 +11,14 @@
   		border-bottom: 6px solid red;
     		background-color: lightgrey;
 		  }
+		  
+		  
 </style>  
 
 </head>
 <body>
 
+<div>
 <div class="container-fluid",width=device-width>
 <div class="footer">
 <div class="col-sm-3">
@@ -26,6 +29,8 @@
 	  <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p> 			
 </footer>
 </div>
+
+
 <div class="col-sm-3">
 <footer>
   <p>Posted by: E-shop & Co.</p>
@@ -34,7 +39,7 @@
 	  <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p> 			
 </footer>
 </div>
-<div class="col-sm-3">
+ <div class="col-sm-3">
 <footer>
   <p>Posted by: E-shop & Co.</p>
 	  <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p>
@@ -51,6 +56,8 @@
 </div>
 </div>
 
-	
+</div>
+</div>
+
 </body>
 </html>

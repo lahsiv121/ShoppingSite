@@ -13,6 +13,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 
+<style>
+
+.div1{
+
+border: 2px;
+width: "device-width";
+height: 400px;
+color: solid blue;
+
+}
+
+</style>
+
 </head>
 <body>
 <div>
@@ -87,13 +100,13 @@
       <ul class="nav navbar-nav navbar-right">
   	    <li><a href="adminhome"><span class="glyphicon glyphicon-user"></span> ADMIN</a></li>
   
-        <li><a href="RegisterPage"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="RegisterPage"><span class="glyphicon glyphicon-hand-right"></span> SignUp</a></li>
         <li><a href="LoginPage"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
-
+</div>
 <!--Nav_Bar coding END  -->
 
 

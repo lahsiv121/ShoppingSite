@@ -11,32 +11,26 @@
 <c:url value="resources/images" var="i"/>
 <c:url value="resources/css" var="c"/>
 
+
+<!-- carousel style -->
  <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 100%;
+      width: 60%;
       margin: auto;
+      height: 90px;
+  
+  h3{
+  color: solid black;
   }
+  
+  
+  }
+  
+  
   </style>
   
   <style>
-div.gallery {
-    border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
 
 * {
     box-sizing: border-box;
@@ -66,10 +60,12 @@ div.desc {
     display: table;
     clear: both;
 }
+
 </style>
   
 
 </head>
+<body background="${i}/Login.jpg";>
 <%@ include file="Header.jsp" %>
 	
 
@@ -90,39 +86,47 @@ div.desc {
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="${i}/apache_fairing.jpg" alt="Apache-160" width="460" height="345">
+        <a href="${i}/Royal-Enfield_Bullet-500-Classic-Military-EFI_2011_4347.jpg" target="_blank">
+        
+        <img src="${i}/Royal-Enfield_Bullet-500-Classic-Military-EFI_2011_4347.jpg" alt="Apache-160" style="width:50.3%">
         <div class="carousel-caption">
-          <h3>apache_fairing</h3>
+          <h3>Bullet 500 Military Edition</h3>
           <p>The atmosphere in India has a touch of Florence and Venice.</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="${i}/Apachi-RTR-180.jpg" alt="Apache-180" width="460" height="345">
+        <a href="${i}/Royal-Enfield-Classic-500.jpg" target="_blank">
+        
+        <img src="${i}/Royal-Enfield-Classic-500.jpg" alt="Royal 500" style="width:=1%">
         <div class="carousel-caption">
-          <h3>Apachi-RTR-180</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+          <h3>Royal 500</h3>
+          <p>The atmosphere in India has a touch of Florence and Venice.</p>
         </div>
       </div>
     
       <div class="item">
-        <img src="${i}/apache_fairing.jpg" alt="Apache-fairing" width="460" height="345">
+        <a href="${i}/Royal-C5 colour option.jpg" target="_blank">
+        
+        <img src="${i}/Royal-C5 colour option.jpg" alt="Apache-fairing" style="width:56.3%">
         <div class="carousel-caption">
-          <h3>apache_fairing</h3>
-          <p>Beautiful bike in India, Crete.</p>
+          <h3>Nawabi color</h3>
+          <p>Beautiful bike in India</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="${i}/Apachi-RTR-180.jpg" alt="Apache-180" width="460" height="345">
+        <a href="${i}/KTM_RC390.jpg" target="_blank">
+        
+        <img src="${i}/KTM_RC390.jpg" alt="Apache-180" style="width:66.8%">
         <div class="carousel-caption">
-          <h3>Apachi-RTR-180</h3>
-          <p>Beautiful bike ever, Crete.</p>
+          <h3>KTM Sport 390</h3>
+          <p>Beautiful bike ever</p>
         </div>
       </div>
   
     </div>
-
+	
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -138,46 +142,6 @@ div.desc {
 
 <hr><hr>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="${i}/apache_fairing.jpg">
-      <img src="${i}/apache_fairing.jpg" alt="Trolltunga Norway" width="300" height="200">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_forest.jpg">
-      <img src="${i}/apache_fairing.jpg" alt="Forest" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_lights.jpg">
-      <img src="${i}/apache_fairing.jpg" alt="Northern Lights" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img src="${i}/apache_fairing.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-
-
-</div>
-
-<hr><hr>
 
 
 <div class="container">
@@ -186,36 +150,118 @@ div.desc {
  -->
 </div>
 
+
 <div class="container">
   <div class="row">
-    <div class="col-md-4">
+    
+    
+    <div class="col-md-3">
       <div class="thumbnail">
         <a href="${i}/Apachi-RTR-180.jpg" target="_blank">
-          <img src="${i}/Apachi-RTR-180.jpg" class="img-circle" alt="Lights" style="width:100%">
+          <img src="${i}/Apachi-RTR-180.jpg" alt="Apache-180" style="width:100%">
           <div class="caption">
-             </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="${i}/Apachi-RTR-180.jpg" target="_blank">
-          <img src="${i}/Apachi-RTR-180.jpg" class="img-circle" alt="Nature" style="width:100%">
-          <div class="caption">
+          <p>Apache 180</p>
+          <p>price: 1 lakh</p>
             </div>
         </a>
       </div>
     </div>
-    <div class="col-md-4">
+    <!-- new  -->
+    
+    <div class="col-md-3">
       <div class="thumbnail">
-        <a href="${i}/Apachi-RTR-180.jpg" target="_blank">
-          <img src="${i}/Apachi-RTR-180.jpg" class="img-circle" alt="Fjords" style="width:100%">
+        <a href="${i}/Royal_500.jpg" target="_blank">
+          <img src="${i}/Royal_500.jpg" alt="bullet-500" style="width:100%">
           <div class="caption">
-             </div>
+          <p>Apache 180</p>
+          <p>price: 1 lakh</p>
+            </div>
         </a>
       </div>
     </div>
+    
+     <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="${i}/vespa.jpg" target="_blank">
+          <img src="${i}/vespa.jpg" alt="vespa" style="width:50%">
+          <div class="caption">
+          <p>vespa 180</p>
+          <p>price:85k</p>
+            </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="${i}/Vespa-946.jpg" target="_blank">
+          <img src="${i}/Vespa-946.jpg" alt="vespa" style="width:50%">
+          <div class="caption">
+          <p>vespa 180</p>
+          <p>price:85k</p>
+            </div>
+        </a>
+      </div>
+    </div>
+    
+    <!-- copied all above 4 
+    
+    <div class="col-md-8">
+      <div class="thumbnail">
+        <a href="${i}/Apachi-RTR-180.jpg" target="_blank">
+          <img src="${i}/Apachi-RTR-180.jpg" alt="Apache-180" style="width:100%">
+          <div class="caption">
+          <p>Apache 180</p>
+          <p>price: 1 lakh</p>
+            </div>
+        </a>
+      </div>
+    </div>
+   
+    
+    <div class="col-md-8">
+      <div class="thumbnail">
+        <a href="${i}/Royal_500.jpg" target="_blank">
+          <img src="${i}/Royal_500.jpg" alt="bullet-500" style="width:100%">
+          <div class="caption">
+          <p>Apache 180</p>
+          <p>price: 1 lakh</p>
+            </div>
+        </a>
+      </div>
+    </div>
+    
+     <div class="col-md-8">
+      <div class="thumbnail">
+        <a href="${i}/vespa.jpg" target="_blank">
+          <img src="${i}/vespa.jpg" alt="vespa" style="width:50%">
+          <div class="caption">
+          <p>vespa 180</p>
+          <p>price:85k</p>
+            </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="col-md-8">
+      <div class="thumbnail">
+        <a href="${i}/Vespa-946.jpg" target="_blank">
+          <img src="${i}/Vespa-946.jpg" alt="vespa" style="width:50%">
+          <div class="caption">
+          <p>vespa 180</p>
+          <p>price:85k</p>
+            </div>
+        </a>
+      </div>
+    </div>
+    
+    
+    
+    
+     end  	-->
+
   </div>
+  
 </div>
 
 
@@ -226,7 +272,7 @@ div.desc {
 <img src="${i}/Apachi-RTR-180.jpg"/> -->
 	
 <%@ include file="Footer.jsp" %>
-</div>
+
 </body>
 </html>
  
