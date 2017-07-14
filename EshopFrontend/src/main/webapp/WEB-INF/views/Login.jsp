@@ -48,9 +48,6 @@ function validateForm() {
 }
 
 
-
-
-
 table, td {
     border: 1px solid white;
     border-collapse: collapse;
@@ -62,25 +59,27 @@ td {
     text-align: center;
 }
 
-div {
-
+div{
 	border: 1px solid white;
-    height: 200px;
-    width: 20%;
-    background-color: powderblue;
+	width:450px;
+
 }
 
-a{
 
-color: hotpink;
+a:hover
+	{
+	color:hotpink;
+	}
 
+.button1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 40px 0 rgba(0,0,0,0.19);
 }
 
 </style>
 
 </head>
 
-<br><br><br><br>
+<br><br><br><br><br>
 <body background="${i}/Login.jpg">
 	
 <form name="myForm" action="index" 
@@ -90,22 +89,26 @@ onsubmit="return validateForm()" method="post">
 <center>
 <div>
 
-<h5>Welcome </h5>
-<br>
+<h3><u><a href="index" target="_blank">Welcome on E-shop</a></u></h3>
 
-<table bgcolor="blue">
+<table>
 <tr>
-<td>username:</td> 
-<td><input type="text" name="username" placeholder="username"></td>
+<td>Username</td>
+<td><input type="text" name="username" placeholder="username" required size="35"></td>
 </tr>
 <tr>
-<td>password:</td> 
-<td><input type="password" name="password" placeholder="password"></td>
+<td>Password</td>
+<td><input type="password" name="password" placeholder="password" required size="35"></td>
 </tr>
-<button class="button button1">LOGIN</button>
+
  </table>
 
+<br>
+  <button class="button button1">LOGIN</button>
+
+
 </div>
+<br><br>
 <a href= "RegisterPage" target="_blank">New-user</a>
 
 </center>

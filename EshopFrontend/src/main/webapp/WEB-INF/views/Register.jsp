@@ -68,8 +68,8 @@ div {
 	border:3px solid white;
     height: 500px;
     width: 30%;
-    background-color: cyan;
-}
+    background-color:cyan;
+    }
 
 a:hover{
 
@@ -78,11 +78,6 @@ background-color:solid black;
 color:hotpink;
 
 }
-
-/* table{
-	border: 2px solid white;
-}
- */
 </style>
 
 </head>
@@ -99,7 +94,7 @@ color:hotpink;
 <form action="LoginPage" method="post">
 <tr>
 <td><p><b>UserName</b></p></td>
-<td><input type="text" name="username" placeholder= "username" required size="35"></td>
+<td><input type="text" name="username" placeholder= "username_UNIQUE" required size="35"></td>
 </tr>
 <tr>
 <td><p><b>Name</b></p></td>
