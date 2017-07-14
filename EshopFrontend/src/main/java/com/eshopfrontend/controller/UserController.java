@@ -23,8 +23,9 @@ public String register(){
 	return "Register";
 } 
 
+
 @RequestMapping("/Register")
-public ModelAndView register(@RequestParam("username") String username,@RequestParam("custname") String custname,@RequestParam("mobile_no") int mobile_no,@RequestParam("password") String password,@RequestParam("Email") String email,@RequestParam("Address") String address){
+public ModelAndView register(@RequestParam("username") String username,@RequestParam("custname") String custname,@RequestParam("mobile_no") double mobile_no,@RequestParam("password") String password,@RequestParam("Email") String email,@RequestParam("Address") String address){
 	ModelAndView mv = new ModelAndView("Login");
 	user.setUsername(username);
 	user.setCustname(custname);
@@ -33,6 +34,7 @@ public ModelAndView register(@RequestParam("username") String username,@RequestP
 	user.setAddress(address);
 	user.setPassword(password);
 	user.setRole("ROLE_ADMIN");
+//	user.setRole("ROLE_USER");
 	user.setEnabled(true);
 	userDAO.insertUpdateUser(user);
 	return mv;

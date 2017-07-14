@@ -4,26 +4,24 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Footer</title>
   
  <style>
- 		footer{
-  		border-bottom: 6px solid red;
+ 		.footer{
+  		border-bottom: 1px solid red;
     		background-color: lightgrey;
 		  }
-		  
 		  
 </style>  
 
 </head>
 <body>
 
-<div>
-<div class="container-fluid",width=device-width>
+
+<div class="container-fluid footer">
 <div class="footer">
 <div class="col-sm-3">
 <footer>
-  <p>Posted by: E-shop & Co.</p>
+  <u><h4>Posted by: E-shop & Co.</h4></u>
 	  <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p>
 	   <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p>
 	  <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p> 			
@@ -33,7 +31,7 @@
 
 <div class="col-sm-3">
 <footer>
-  <p>Posted by: E-shop & Co.</p>
+  <u><h4>AboutUs</h4></u>
 	  <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p>
 	   <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p>
 	  <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p> 			
@@ -41,14 +39,14 @@
 </div>
  <div class="col-sm-3">
 <footer>
-  <p>Posted by: E-shop & Co.</p>
+  <u><h4>Quick Links</h4></u>
 	  <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p>
 	   <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p>
 	  <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p> 			
 </footer>
 </div>
 <div class="col-sm-3"><footer>
-  <p>Posted by: E-shop & Co.</p>
+  <u><h4>Contact E-shop & Co.</h4></u>
 	  <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p>
 	   <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p>
 	  <p>Contact information: <a href="mailto:121vshal@gmail.com">121vshal@gmail.com</a></p> 			
@@ -56,7 +54,6 @@
 </div>
 </div>
 
-</div>
 </div>
 
 </body>

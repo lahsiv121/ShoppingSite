@@ -15,20 +15,18 @@
 
 <style>
 
-.div1{
-
-border: 2px;
-width: "device-width";
-height: 400px;
-color: solid blue;
-
-}
-
 </style>
 
 </head>
 <body>
-<div>
+
+<div style="border: 2px solid black;
+width:100%;height: 100px;color: red;">
+
+<center><h1>E-SHOP BAZAAR</h1></center>
+
+</div>
+
 <!-- nav_bar coding START-->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -88,15 +86,6 @@ color: solid blue;
         </li>
         </ul>
      
-     
-      <li><form class="navbar-form navbar-left" >
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search">
-      </div>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
-      </li>
-      
       <ul class="nav navbar-nav navbar-right">
   	    <li><a href="adminhome"><span class="glyphicon glyphicon-user"></span> ADMIN</a></li>
   
@@ -106,7 +95,6 @@ color: solid blue;
     </div>
   </div>
 </nav>
-</div>
 <!--Nav_Bar coding END  -->
 
 

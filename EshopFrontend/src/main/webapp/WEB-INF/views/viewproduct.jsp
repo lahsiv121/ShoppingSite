@@ -24,6 +24,9 @@
 <th>Edit_Product</th>
 <th>Delete_Product</th>
 </tr>  
+
+<!-- for loop in jsp -->
+
    <c:forEach var="x" items="${productlist}">   
    <tr>  
    <td>${x.productid}</td>  

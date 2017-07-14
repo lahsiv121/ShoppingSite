@@ -140,18 +140,12 @@
 </div>
 <!-- Carousel Coding Ending -->
 
-<hr><hr>
+<hr>
 
 
+<!-- thumbnil static starting  -->
 
-<div class="container">
-  <!-- <img src="${i}/apache_fairing.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
-   <a href="${i}/apache_fairing.jpg" target="_blank">
- -->
-</div>
-
-
-<div class="container">
+ <div class="container-fluid">
   <div class="row">
     
     
@@ -204,75 +198,146 @@
       </div>
     </div>
     
-    <!-- copied all above 4 
-    
-    <div class="col-md-8">
-      <div class="thumbnail">
-        <a href="${i}/Apachi-RTR-180.jpg" target="_blank">
-          <img src="${i}/Apachi-RTR-180.jpg" alt="Apache-180" style="width:100%">
-          <div class="caption">
-          <p>Apache 180</p>
-          <p>price: 1 lakh</p>
-            </div>
-        </a>
-      </div>
-    </div>
    
+
+  </div>
+  
+</div>
+
+<!-- thumbnil static ending  -->
+
+
+<!-- thumbnil carousel -->
+
+<div id="thumbnilCarousel" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#thumbnilCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#thumbnilCarousel" data-slide-to="1"></li>
+      <li data-target="#thumbnilCarousel" data-slide-to="2"></li>
+      <li data-target="#thumbnilCarousel" data-slide-to="3"></li>
+    </ol>
+       
+           <!-- Wrapper for slides -->
+           
+ <div class="carousel-inner" role="listbox">       
+   <div class="item active">
+   <div class="row">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="${i}/Apachi-RTR-180.jpg" target="_blank">
+             <img src="${i}/Apachi-RTR-180.jpg" alt="Apache-180" style="width:100%">
+              <div class="caption">
+              <p>Apache 180</p>
+              <p>price: 1 lakh</p>
+              </div>
+            </a>
+          </div>
+       </div>
+    <!-- new  -->
     
-    <div class="col-md-8">
+    <div class="col-md-3">
       <div class="thumbnail">
         <a href="${i}/Royal_500.jpg" target="_blank">
           <img src="${i}/Royal_500.jpg" alt="bullet-500" style="width:100%">
           <div class="caption">
           <p>Apache 180</p>
           <p>price: 1 lakh</p>
-            </div>
+          </div>
         </a>
       </div>
     </div>
     
-     <div class="col-md-8">
+     <div class="col-md-3">
       <div class="thumbnail">
         <a href="${i}/vespa.jpg" target="_blank">
           <img src="${i}/vespa.jpg" alt="vespa" style="width:50%">
           <div class="caption">
           <p>vespa 180</p>
           <p>price:85k</p>
-            </div>
+          </div>
         </a>
       </div>
     </div>
     
-    <div class="col-md-8">
+    <div class="col-md-3">
       <div class="thumbnail">
         <a href="${i}/Vespa-946.jpg" target="_blank">
           <img src="${i}/Vespa-946.jpg" alt="vespa" style="width:50%">
           <div class="caption">
           <p>vespa 180</p>
           <p>price:85k</p>
-            </div>
+          </div>
         </a>
       </div>
     </div>
     
-    
-    
-    
-     end  	-->
-
-  </div>
+    </div>
   
+  </div>   <!-- class item active end div-->
+  
+       
+ 
+ <!-- class item start -->
+ 
+ <div class="item">
+    <div class="row">
+ 
+      <div class="col-md-3">
+       <div class="thumbnail">
+         <a href="${i}/Apachi-RTR-180.jpg" target="_blank">
+          <img src="${i}/Apachi-RTR-180.jpg" alt="Apache-180" style="width:100%">
+          <div class="caption">
+          <p>Apache 180</p>
+          <p>price: 1 lakh</p>
+         </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="${i}/Royal_500.jpg" target="_blank">
+          <img src="${i}/Royal_500.jpg" alt="bullet-500" style="width:100%">
+          <div class="caption">
+          <p>Apache 180</p>
+          <p>price: 1 lakh</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+     <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="${i}/vespa.jpg" target="_blank">
+          <img src="${i}/vespa.jpg" alt="vespa" style="width:50%">
+          <div class="caption">
+          <p>vespa 180</p>
+          <p>price:85k</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="${i}/Vespa-946.jpg" target="_blank">
+          <img src="${i}/Vespa-946.jpg" alt="vespa" style="width:50%">
+          <div class="caption">
+          <p>vespa 180</p>
+          <p>price:85k</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+   </div>
+   </div>
+ 
+</div>
 </div>
 
-
-<!-- 
-<img src="${i}/apache_fairing.jpg"/>
-<img src="${i}/Apachi-RTR-180.jpg"/>
-<img src="${i}/apache_fairing.jpg"/>
-<img src="${i}/Apachi-RTR-180.jpg"/> -->
-	
 <%@ include file="Footer.jsp" %>
-
 </body>
 </html>
- 

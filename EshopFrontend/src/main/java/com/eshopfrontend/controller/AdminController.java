@@ -73,13 +73,4 @@ public class AdminController
 		productDAO.insertUpdateProduct(product);
 		return new ModelAndView("redirect:/viewproduct");
 	}
-
-	/*@RequestMapping("/adminhome")
-	
-		public ModelAndView adminhome()
-		{
-		ModelAndView mv=new ModelAndView("adminhome");
-		return mv;
-		
-		} */
 }

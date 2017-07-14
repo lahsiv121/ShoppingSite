@@ -24,6 +24,16 @@
 <a href="addproduct">ADD PRODUCT</a>
 <br><br><br>
 <a href="viewproduct">VIEW PRODUCT</a>
+<br><br>
+<a href="editproduct">EDIT PRODUCT</a>
+<br><br><br>
+<a href="addctegory">ADD CATEGORY</a>
+<br><br>
+<a href="viewcategory">VIEW CATEGORY</a>
+<br><br><br>
+<a href="addsupplier">ADD SUPPLIER</a>
+<br><br><br>
+<a href="viewsupplier">VIEW SUPPLIER</a>
 </center>
 </div>
 </body>

@@ -63,6 +63,8 @@ td {
 }
 
 div {
+
+	border: 1px solid white;
     height: 200px;
     width: 20%;
     background-color: powderblue;
@@ -93,18 +95,18 @@ onsubmit="return validateForm()" method="post">
 
 <table bgcolor="blue">
 <tr>
-<td>Name:</td> 
-<td><input type="text" name="username" placeholder="name"></td>
+<td>username:</td> 
+<td><input type="text" name="username" placeholder="username"></td>
 </tr>
 <tr>
 <td>password:</td> 
 <td><input type="password" name="password" placeholder="password"></td>
 </tr>
-<button class="button button1">Login</button>
+<button class="button button1">LOGIN</button>
  </table>
 
 </div>
-<a href= "Register" target="_blank">New-user</a>
+<a href= "RegisterPage" target="_blank">New-user</a>
 
 </center>
 </form>

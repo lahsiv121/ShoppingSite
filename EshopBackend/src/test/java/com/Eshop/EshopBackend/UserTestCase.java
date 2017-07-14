@@ -25,9 +25,13 @@ public class UserTestCase
 		
 		User user = new User();
 		// only set cases will change for all TestCases classes 
-		user.setUsername("jhbjh");
-		user.setCustname("sonu");
-		user.setAddress("PRATAP VIHAR - 2 DELHI");
+		user.setUsername("vishal121");
+		user.setCustname("vishal");
+		user.setAddress("pv,delhi-86");
+		user.setEmail("121vshal@gmail.com");
+		user.setMobile_no(989909021);
+		user.setPassword("password");
+		user.setAddress("PV,kirari,Nangloi,Delhi");
 		
 		userDAO.insertUpdateUser(user);		
 		System.out.println("User Inserted");

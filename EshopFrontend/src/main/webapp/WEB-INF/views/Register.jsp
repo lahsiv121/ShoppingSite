@@ -21,6 +21,7 @@
 <style>
 table, th, td {
     border: 2px white;
+   
     border-collapse: collapse;
 }
 th, td {
@@ -29,6 +30,10 @@ th, td {
 th {
     text-align: center;
 }
+
+table{
+		border: 2px solid white;
+	}
 
 p{
 
@@ -60,29 +65,38 @@ color:red;
 
 
 div {
+	border:3px solid white;
     height: 500px;
     width: 30%;
-    background-color: solid black;
+    background-color: cyan;
 }
 
-a{
+a:hover{
 
-color:black;
+background-color:solid black;
+
+color:hotpink;
 
 }
 
+/* table{
+	border: 2px solid white;
+}
+ */
 </style>
 
 </head>
 <body background="${i}/Login.jpg";>
 	
 <center>	
-<br><br><br>
+<br><br>
+
+<h3>To Get Membership of our website you must SignUP</h3>
 <div>
 <br>
 
 <table bgcolor="black"> 
-<form action="Register" method="post">
+<form action="LoginPage" method="post">
 <tr>
 <td><p><b>UserName</b></p></td>
 <td><input type="text" name="username" placeholder= "username" required size="35"></td>
@@ -110,7 +124,7 @@ color:black;
 </table>
  <button class="button button1">SignUp</button>
 <br><br>
-<a href="LoginPage" target="_blank">Login</a>
+<b><a href="LoginPage" target="_blank">Login</a></b>
   
   </div>
 	

@@ -19,7 +19,8 @@ public class User
 	boolean Enabled;
 	private String Email;
 	private String Address;
-	private int mobile_no;
+	private double mobile_no;
+	
 	public String getUsername() {
 		return username;
 	}
@@ -62,10 +63,10 @@ public class User
 	public void setAddress(String address) {
 		Address = address;
 	}
-	public int getMobile_no() {
+	public double getMobile_no() {
 		return mobile_no;
 	}
-	public void setMobile_no(int mobile_no) {
+	public void setMobile_no(double mobile_no) {
 		this.mobile_no = mobile_no;
 	}
 	

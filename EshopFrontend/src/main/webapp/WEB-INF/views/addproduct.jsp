@@ -10,6 +10,8 @@
 </head>
 <body>
 
+<!-- spring form -->
+
 <h1>Add New Product</h1>  
        <form:form method="post" action="saveproduct">    
         <table >    
